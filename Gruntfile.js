@@ -435,7 +435,7 @@ module.exports = function (grunt) {
     //E2E tests
     protractor: {
         options: {
-              configFile: "protractor-conf.js", //your protractor config file
+              configFile: 'protractor-conf.js', //your protractor config file
               keepAlive: true, // If false, the grunt process stops when the test fails.
               noColor: false, // If true, protractor will not use colors in its output.
               args: {
